@@ -1,7 +1,7 @@
 # My Dashboard App
 
 A responsive React dashboard with data visualization, order management, and dark mode support.
-Link to Dashboard - https://abhay-baghel.github.io/Dashboard-APP/
+Link to Dashboard - https://abhay-baghel.github.io/Dashboard-APP
 
 ## 🚀 Features
 
@@ -9,13 +9,6 @@ Link to Dashboard - https://abhay-baghel.github.io/Dashboard-APP/
 - Order management with filtering and search
 - Responsive design with dark/light theme
 - Real-time data visualization
-
-## 🛠️ Tech Stack
-
-- React 18.3.1, React Router DOM
-- Chart.js, react-chartjs
-- Tailwind CSS, SCSS/Sass
-- Jest, React Testing Library
 
 ## � Setup & Installation
 
@@ -73,6 +66,32 @@ src/
 ├── index.css      # Global styles
 └── setupTests.js  # Test configuration
 ```
+## Application Flow & User Actions
+
+- **Any route** (`/`, `/Dashboard-APP/`, or any other path) → **Redirects to `/api/homepage`**
+- **`/api/homepage`** → Main dashboard view
+- **`/api/orders`** → Orders management view
+
+**Landing Page (Dashboard)**
+**Route**: `/api/homepage`
+
+**Available Actions**:
+
+- 🌙 **Toggle Theme**: Switch between light and dark mode using the theme toggle on the header
+- 🔔 **Open Notifications**: Click notification bell to view recent alerts and updates
+- **Navigate to Orders**: Click "Orders" button on SideBar or Tile on homepage to access orders
+- Click on Dashboard on sidebar to return back to homepage
+
+  **Orders Management Page**
+  **Route**: `/api/orders`
+
+**Available Actions**:
+
+- **Search Orders**: Use search bar to find specific orders by ID, customer, or product
+- **Filter by Status**: Filter orders by status (Pending, Shipped, Delivered, Cancelled)
+- **Sort Orders**: Sort by date, amount, or status
+- **View Order Details**: Click on any order row to view detailed information
+- **Return to Dashboard**: Use back button to return to main dashboard
 
 ### Running Specific Tests
 
