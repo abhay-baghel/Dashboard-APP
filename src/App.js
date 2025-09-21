@@ -3,6 +3,7 @@ import {
   BrowserRouter as Router,
   Routes,
   Route,
+  Navigate,
   useNavigate,
 } from "react-router-dom";
 import Sidebar from "./components/Sidebar";
@@ -64,10 +65,7 @@ function AppContent() {
               path="/api/orders"
               element={<Orderslist onBack={navigateToDashboard} />}
             />
-            <Route
-              path="/"
-              element={<Dashboard onNavigateToOrders={navigateToOrders} />}
-            />
+            <Route path="/" element={<Navigate to="/api/homepage" replace />} />
           </Routes>
         </main>
       </div>
