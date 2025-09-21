@@ -66,6 +66,10 @@ function AppContent() {
               element={<Orderslist onBack={navigateToDashboard} />}
             />
             <Route path="/" element={<Navigate to="/api/homepage" replace />} />
+            <Route
+              path="/Dashboard-APP/"
+              element={<Navigate to="/api/homepage" replace />}
+            />
           </Routes>
         </main>
       </div>
