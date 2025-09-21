@@ -67,7 +67,7 @@ function AppContent() {
             />
             <Route path="/" element={<Navigate to="/api/homepage" replace />} />
             <Route
-              path="/Dashboard-APP/"
+              path="/Dashboard-APP"
               element={<Navigate to="/api/homepage" replace />}
             />
           </Routes>
