@@ -1,0 +1,16 @@
+{
+  "locations": {
+    "labels": ["New York", "San Francisco", "Sydney", "Singapore"],
+    "datasets": [
+      {
+        "data": [72000, 39000, 25000, 61000],
+        "backgroundColorClasses": [
+          "newyork-color",
+          "sanfrancisco-color",
+          "sydney-color",
+          "singapore-color"
+        ]
+      }
+    ]
+  }
+}

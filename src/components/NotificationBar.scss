@@ -1,0 +1,74 @@
+// Notification Bar Styles
+
+// Notification type color variables
+:root {
+  --notification-info-bg: #dbeafe;
+  --notification-info-text: #1e40af;
+  --notification-info-bg-dark: #1e3a8a;
+  --notification-info-text-dark: #bfdbfe;
+
+  --notification-success-bg: #dcfce7;
+  --notification-success-text: #166534;
+  --notification-success-bg-dark: #14532d;
+  --notification-success-text-dark: #bbf7d0;
+
+  --notification-warning-bg: #fef3c7;
+  --notification-warning-text: #92400e;
+  --notification-warning-bg-dark: #78350f;
+  --notification-warning-text-dark: #fde68a;
+}
+
+// Notification type badge styles
+.notification-badge {
+  display: inline-flex;
+  padding: 0.25rem 0.5rem;
+  border-radius: 9999px;
+  font-size: 0.75rem;
+  font-weight: 500;
+
+  &.info {
+    background-color: var(--notification-info-bg);
+    color: var(--notification-info-text);
+  }
+
+  &.success {
+    background-color: var(--notification-success-bg);
+    color: var(--notification-success-text);
+  }
+
+  &.warning {
+    background-color: var(--notification-warning-bg);
+    color: var(--notification-warning-text);
+  }
+}
+
+// Dark mode styles
+:global(.dark) {
+  .notification-badge {
+    &.info {
+      background-color: var(--notification-info-bg-dark);
+      color: var(--notification-info-text-dark);
+    }
+
+    &.success {
+      background-color: var(--notification-success-bg-dark);
+      color: var(--notification-success-text-dark);
+    }
+
+    &.warning {
+      background-color: var(--notification-warning-bg-dark);
+      color: var(--notification-warning-text-dark);
+    }
+  }
+}
+
+// NotificationBar container styles
+.notification-sidebar {
+  .notification-item {
+    transition: background-color 0.2s ease-in-out;
+
+    &:hover {
+      background-color: rgba(255, 255, 255, 0.15);
+    }
+  }
+}

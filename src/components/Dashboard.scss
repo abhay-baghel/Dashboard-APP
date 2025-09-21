@@ -1,0 +1,115 @@
+// Dashboard Chart Styles
+
+// Chart color variables
+:root {
+  --projections-bg-color: rgba(99, 102, 241, 0.85);
+  --actuals-bg-color: rgba(99, 102, 241, 0.35);
+
+  // Pie chart (sources) colors
+  --direct-color: #3b82f6;
+  --affiliate-color: #8b5cf6;
+  --sponsored-color: #10b981;
+  --email-color: #e5e7eb;
+
+  // Revenue by location colors
+  --newyork-color: #60a5fa;
+  --sanfrancisco-color: #93c5fd;
+  --sydney-color: #bfdbfe;
+  --singapore-color: #60f5d0;
+
+  // Revenue line chart colors
+  --current-week-line: #059669;
+  --previous-week-line: #3b82f6;
+}
+
+// Projection chart background colors
+.projections-bg {
+  background-color: var(--projections-bg-color);
+}
+
+.actuals-bg {
+  background-color: var(--actuals-bg-color);
+}
+
+// Pie chart (sources) background colors
+.direct-color {
+  background-color: var(--direct-color);
+}
+
+.affiliate-color {
+  background-color: var(--affiliate-color);
+}
+
+.sponsored-color {
+  background-color: var(--sponsored-color);
+}
+
+.email-color {
+  background-color: var(--email-color);
+}
+
+// Revenue by location background colors
+.newyork-color {
+  background-color: var(--newyork-color);
+}
+
+.sanfrancisco-color {
+  background-color: var(--sanfrancisco-color);
+}
+
+.sydney-color {
+  background-color: var(--sydney-color);
+}
+
+.singapore-color {
+  background-color: var(--singapore-color);
+}
+
+// Revenue line chart border colors
+.current-week-line {
+  border-color: var(--current-week-line);
+}
+
+.previous-week-line {
+  border-color: var(--previous-week-line);
+}
+
+// Chart container styling
+.chart-container {
+  .projections-bar-chart {
+    // Additional styling for bar chart if needed
+    canvas {
+      border-radius: 8px;
+    }
+  }
+}
+
+// Dashboard specific styles
+.dashboard-main {
+  .app-card {
+    transition: all 0.2s ease-in-out;
+
+    &:hover {
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    }
+  }
+}
+
+// Chart color variables for consistency
+:root {
+  --projection-primary: rgba(99, 102, 241, 0.85);
+  --projection-secondary: rgba(99, 102, 241, 0.35);
+  --chart-text-color: rgb(107, 114, 128);
+  --chart-grid-color: rgba(107, 114, 128, 0.2);
+}
+
+// Dark mode support
+:global(.dark) {
+  .dashboard-main {
+    .app-card {
+      &:hover {
+        box-shadow: 0 10px 25px rgba(255, 255, 255, 0.05);
+      }
+    }
+  }
+}

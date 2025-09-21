@@ -1,0 +1,39 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "ASOS Ridley High Waist",
+      "price": "$79.49",
+      "qty": 82,
+      "amount": "$6,518.18"
+    },
+    {
+      "id": 2,
+      "name": "Marco Lightweight Shirt",
+      "price": "$128.50",
+      "qty": 37,
+      "amount": "$4,754.50"
+    },
+    {
+      "id": 3,
+      "name": "Half Sleeve Shirt",
+      "price": "$39.99",
+      "qty": 64,
+      "amount": "$2,559.36"
+    },
+    {
+      "id": 4,
+      "name": "Lightweight Jacket",
+      "price": "$20.00",
+      "qty": 184,
+      "amount": "$3,680.00"
+    },
+    {
+      "id": 5,
+      "name": "Marco Shoes",
+      "price": "$79.49",
+      "qty": 64,
+      "amount": "$1,965.81"
+    }
+  ]
+}

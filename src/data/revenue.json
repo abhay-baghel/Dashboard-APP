@@ -1,0 +1,21 @@
+{
+  "revenue": {
+    "labels": ["Jan", "Feb", "Mar", "Apr", "May", "Jun"],
+    "datasets": [
+      {
+        "label": "Current Week",
+        "data": [5000, 8000, 7000, 9000, 11000, 14000],
+        "borderColorClass": "current-week-line",
+        "tension": 0.4,
+        "fill": false
+      },
+      {
+        "label": "Previous Week",
+        "data": [6000, 7000, 7500, 8500, 12000, 13000],
+        "borderColorClass": "previous-week-line",
+        "tension": 0.4,
+        "fill": false
+      }
+    ]
+  }
+}

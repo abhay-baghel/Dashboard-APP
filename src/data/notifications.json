@@ -1,0 +1,52 @@
+{
+  "notifications": [
+    {
+      "id": 1,
+      "type": "info",
+      "title": "New Order Received",
+      "message": "Order #1234 has been placed successfully",
+      "time": "2 minutes ago",
+      "icon": "📦"
+    },
+    {
+      "id": 2,
+      "type": "success",
+      "title": "Payment Confirmed",
+      "message": "Payment for order #1233 has been processed",
+      "time": "5 minutes ago",
+      "icon": "💳"
+    },
+    {
+      "id": 3,
+      "type": "warning",
+      "title": "Low Stock Alert",
+      "message": "ASOS Ridley High Waist is running low",
+      "time": "10 minutes ago",
+      "icon": "⚠️"
+    },
+    {
+      "id": 4,
+      "type": "info",
+      "title": "New Customer",
+      "message": "John Doe has registered as a new customer",
+      "time": "15 minutes ago",
+      "icon": "👤"
+    },
+    {
+      "id": 5,
+      "type": "success",
+      "title": "Revenue Target Met",
+      "message": "Monthly revenue target achieved!",
+      "time": "1 hour ago",
+      "icon": "🎯"
+    },
+    {
+      "id": 6,
+      "type": "info",
+      "title": "System Update",
+      "message": "Dashboard system will be updated tonight",
+      "time": "2 hours ago",
+      "icon": "🔄"
+    }
+  ]
+}

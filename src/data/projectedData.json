@@ -1,0 +1,17 @@
+{
+  "projectedData": {
+    "labels": ["Jan", "Feb", "Mar", "Apr", "May", "Jun"],
+    "datasets": [
+      {
+        "label": "Projections",
+        "data": [120000, 190000, 140000, 200000, 240000, 220000],
+        "backgroundColorClass": "projections-bg"
+      },
+      {
+        "label": "Actuals",
+        "data": [100000, 170000, 130000, 180000, 220000, 200000],
+        "backgroundColorClass": "actuals-bg"
+      }
+    ]
+  }
+}

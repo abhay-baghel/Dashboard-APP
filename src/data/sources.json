@@ -1,0 +1,16 @@
+{
+  "sources": {
+    "labels": ["Direct", "Affiliate", "Sponsored", "E-mail"],
+    "datasets": [
+      {
+        "data": [300.56, 135.18, 154.02, 48.96],
+        "backgroundColorClasses": [
+          "direct-color",
+          "affiliate-color",
+          "sponsored-color",
+          "email-color"
+        ]
+      }
+    ]
+  }
+}
